@@ -5,208 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FS2S</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
-        body 
-        {
-            box-sizing: border-box;
-        }
-        header 
-        {
-            padding-top: 53px;
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            height: 50px;
-            position: relative;
-        }
-        .logo 
-        {
-            font-family: 'Unica One', cursive;
-            font-size: 48px;
-            width: 93px;
-            user-select: none;
-        }
-        .what_to_do button:hover 
-        {
-                box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
-        }
-        .menu 
-        {
-            margin-left: 143px;
-            display: flex;
-            flex-direction: row;
-        }
-        .menu li 
-        {
-            list-style-type: none;
-            margin-right: 58px;
-            text-decoration: underline;
-            text-decoration-thickness: 1px;
-        }
-        body 
-        {
-            color: white;
-            font-family: 'Ubuntu', sans-serif;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 100vh;
-            background: linear-gradient(179.59deg, #AD5389 0.33%, #3C1053 98.77%);
-            min-height: 800px;
-            background: cadetblue;
-        }
-        @keyframes bigger {
-            0%% {transform: rotate(0deg) }
-            25%  { transform: rotate(45deg) } /* ignored */
-            50%  { transform: rotate(0deg) }
-            75%  { transform: rotate(-45deg) }
-            to   { transform: rotate(0deg) }
-        }
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-
-        button, li
-        {
-            cursor: pointer;
-        }
-        .what_to_do button 
-        {
-                padding: 30px 20px;
-                background: linear-gradient(
-            90deg
-            , #00F5A0 0%, #00D9F5 100%);
-                background: linear-gradient( 
-90deg
- , #f500c0 0%, #8000f5 100%);
-     background: linear-gradient( 
-90deg
- , #55be53 0%, #74c753 100%);
-                box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
-                border-radius: 20px;
-                color: white;
-                font-size: 25px;
-                margin-top: 53px;
-                box-sizing: border-box;
-        }
-        .what_to_do 
-        {
-            display: flex;
-            flex-direction: row;
-            margin-top: 129px;
-        }
-        .right img 
-        {
-                margin-top: -110px;
-            margin-left: 83px;
-            filter: drop-shadow(0px 0px 30px #FFFFFF);
-            width:500px;
-        }
-        .wrapper
-        {
-            width: 1200px;
-            margin:0 auto;
-        }
-        h2
-        {
-            font-size: 48px;
-        }
-        button, button:active, button:focus { border:none; outline: none; }
-        .list li 
-        {
-            list-style-type: none;
-            margin-right: 18px;
-        }
-        .list 
-        {
-            display: flex;
-            flex-direction: row;
-            margin-top: 58px;
-        }
-        .desc 
-        {
-            width: 200px;
-            height: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-        .why_us 
-        {
-            width: 100%;
-        }
-        .list 
-        {
-                        display: flex;
-            justify-content: space-between;
-        }
-        .image
-        {
-            display: flex;
-            justify-content: center;
-        }
-        .desc 
-        {
-            text-align: center
-        }
-        .list .image img
-        {
-            width: 63px;
-            height: 64px;
-        }
-        .profile
-        {
-            display: flex;
-            flex-direction: row;
-
-        }
-        .profile .name 
-        {
-            text-align: center;
-        }
-        .profile 
-        {
-            position: absolute; 
-            right: 0;         
-        }
-        .name 
-        {
-            display: flex;
-            align-items: center;
-            margin-right: 10px;
-            font-size: 24px;
-        }
-        .profile .image img 
-        {
-            width: 44px;
-            height: 44px;
-        }
-        li:hover img 
-        {
-            animation-name: bigger;
-  animation-duration: 2s;
-  animation-delay: 0s;
-        }
-        .what_to_do p 
-        {
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
+
 <div class="wrapper">
     <header>
         <div class="logo">FS2S</div>
-        <ul class="menu">
-            <li>Для авторов</li>
-            <li>Как всё работает</li>
-            <li>Лента заказов</li>
-        </ul>
+        <nav class="navigation">
+            <ul class="menu">
+                <li class="back">Для авторов</li>
+                <li class="back">Как всё работает</li>
+                <li class="back">Лента заказов</li>
+            </ul>
+        </nav>
         <div class="profile">
             <div class="name">
             Максим
             </div>
             <div class="image">
-                <img src="profile.png"/>
+                <img src="profile2.png"/>
             </div>
         </div>
     </header>
@@ -228,24 +47,25 @@
         <h2>Почему мы?</h2>
         <ul class="list">
             <li>
-                <div class="image"><img src="like.png"/></div>
+                <div class="image"><img src="like2.png"/></div>
                 <div class="desc">Бесплатно для всех</div>
             </li>
             <li>
-                <div class="image"><img src="wallet.png"/></div>
+                <div class="image"><img src="wallet2.png"/></div>
                 <div class="desc">Гарантия оплаты</div>
             </li>
             <li>
-                <div class="image"><img src="tick.png"/></div>
+                <div class="image"><img src="tick2.png"/></div>
                 <div class="desc">Быстрое выполнение</div>
             </li>
             <li>
-                <div class="image"><img src="time.png"/></div>
+                <div class="image"><img src="time2.png"/></div>
                 <div class="desc">Экономит время
  поиска исполнителя вручную</div>
             </li>
         </ul>
     </section>
 </div>
+
 </body>
 </html>
