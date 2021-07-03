@@ -61,6 +61,7 @@ li:first-child {
 }
 .back {
 	margin-left: 25px;
+	list-style-type: circle;
 }
 .back:hover {
 	text-decoration: underline;
