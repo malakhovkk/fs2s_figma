@@ -41,6 +41,8 @@ h2 {
 	margin-left: 143px;
 	display: flex;
 	flex-direction: row;
+	height: 100%;
+    align-items: center;
 }
 .what_to_do .title {
 	width: 508px;
