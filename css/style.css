@@ -34,7 +34,7 @@ h2 {
 	font-size: 48px;
 	margin-bottom: 20px;
 }
-.what_to_do button:hover {
+.what_to_do .regist:hover {
 	box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
 }
 .menu {
@@ -138,7 +138,7 @@ li {
 	font-family: 'UbuntuBold';
 	font-size: 20px;
 }
-.what_to_do button {
+.what_to_do .regist{
 	padding: 30px 20px;
 	background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
 	background: linear-gradient(90deg, #f500c0 0%, #8000f5 100%);
@@ -151,6 +151,18 @@ li {
 	font-size: 25px;
 	margin-top: 53px;
 	box-sizing: border-box;
+	display: inline-block;
+}
+.login 
+{
+	display: block;
+	width: 280px;
+	text-decoration: underline;
+	font-family: 'UbuntuRegular';
+	font-size: 16px;
+	background:none;
+	border: none;
+	margin-top: 10px;
 }
 .what_to_do {
 	display: flex;
